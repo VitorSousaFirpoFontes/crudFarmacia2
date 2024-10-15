@@ -61,9 +61,8 @@ h1 {
     }
 
     .btn-pesquisar {
-        margin-top: 10px; /* Espaço entre os botões */
-        background-color: #4CAF50; /* Verde */
-        color: white;
+        margin-top: 10px; 
+        background-color: #4CAF50; 
         padding: 10px 20px;
         border: none;
         border-radius: 5px;
@@ -71,5 +70,5 @@ h1 {
     }
 
     .btn-pesquisar:hover {
-        background-color: #45a049; /* Verde mais escuro */
+        background-color: #45a049; 
     }

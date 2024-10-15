@@ -10,7 +10,6 @@ if (isset($_POST['username']) || isset($_POST['password'])) {
         $email = $conn->real_escape_string($_POST['username']);
         $senha = $conn->real_escape_string($_POST['password']);
 
-        // Corrigindo a consulta SQL com aspas corretamente fechadas
         $sql_code = "SELECT * FROM usuarios WHERE username = '$email' AND password = '$senha'";
         $sql_query = $conn->query($sql_code) or die("Falha na conexão: " . $conn->error);
 
@@ -27,7 +26,7 @@ if (isset($_POST['username']) || isset($_POST['password'])) {
             $_SESSION['name'] = $usuario['nome'];
 
             header("Location: painel.php");
-            exit(); // Certifique-se de sair após o redirecionamento
+            exit(); 
         } else {
             echo "Falha ao logar. Usuário ou senha incorretos.";
         }
