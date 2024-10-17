@@ -3,72 +3,85 @@ h1 {
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5em;
-    }
-    
-    body {
-        background-color: #ffffff;
-        background-image: url('resumo-borrao-shopping_74190-5812.avif');
-        background-repeat: no-repeat;
-        background-size: cover; 
-        background-position: center;
-    }
-    
-    label {
-        color: rgb(0, 0, 0);
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-    }
-    .form-centralizado {
-        display: flex;
-        flex-direction: column; 
-        width: 300px; 
-        margin: 0 auto;
-    }
-    
-    .meuinput {
-        border: 1px solid #000;
-    }
-    
-    label {
-        margin-bottom: 5px; 
-    }
-    
-    p {
-     
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url('resumo-borrao-shopping_74190-5812.avif');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Para ocupar toda a altura da tela */
+    margin: 0; /* Remove margens padrão */
+}
+
+label {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-centralizado {
+    display: flex;
+    flex-direction: column; 
+    width: 300px; 
+    margin: 0 auto;
+}
+
+.meuinput {
+    border: 1px solid #000;
+    width: 100%; /* Mantém 100% da largura do container */
+    max-width: 100%; /* Garante que não exceda a largura do container */
+    padding: 8px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaçamento entre os inputs */
+}
+
+label {
+    margin-bottom: 5px; 
+}
+
+p {
     color: #020101;
     font-family: 'Montserrat', sans-serif;
-    }
-    
-    td {
-        color: rgb(0, 0, 0);
-        border: 1px solid #000;
-        font-weight: bold; 
-    }
-    th {
-        color: rgb(0, 0, 0);
-        border: 1px solid #000;
-        font-weight: bold; 
-    }
-    .div_img {
-        text-align: center;
-    }
-    
-    section {
-        background-image: url("resumo-borrao-shopping_74190-5812.avif");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
+}
 
-    .btn-pesquisar {
-        margin-top: 10px; 
-        background-color: #4CAF50; 
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
+td {
+    color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    font-weight: bold; 
+}
 
-    .btn-pesquisar:hover {
-        background-color: #45a049; 
-    }
+th {
+    color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    font-weight: bold; 
+}
+
+.div_img {
+    text-align: center;
+}
+
+section {
+    background-image: url("resumo-borrao-shopping_74190-5812.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px; /* Adicione um padding ao redor do conteúdo */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.btn-pesquisar {
+    margin-top: 10px; 
+    background-color: #4CAF50; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-pesquisar:hover {
+    background-color: #45a049; 
+}
