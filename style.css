@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    color: #000000;
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5em;
 }
@@ -65,12 +65,13 @@ th {
 }
 
 section {
-    background-image: url("resumo-borrao-shopping_74190-5812.avif");
+ 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 20px; /* Adicione um padding ao redor do conteúdo */
     border-radius: 8px; /* Bordas arredondadas */
+    background-color: black;
 }
 
 .btn-pesquisar {
