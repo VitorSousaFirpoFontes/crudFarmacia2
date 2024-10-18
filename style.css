@@ -71,7 +71,7 @@ section {
     background-position: center;
     padding: 20px; /* Adicione um padding ao redor do conteúdo */
     border-radius: 8px; /* Bordas arredondadas */
-    background-color: black;
+    background-color: rgb(136, 131, 131);
 }
 
 .btn-pesquisar {
