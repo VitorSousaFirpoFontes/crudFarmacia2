@@ -33,8 +33,9 @@
             <input type="submit" value="Cadastrar medicamento" class="btn-pesquisar">
         </form>
         <form action="pesquisar.php" method="GET" class="form-centralizado">
-            <input type="submit" value="Pesquisar" class="btn-pesquisar" />
+            <input type="submit" value="Pesquisar medicamento" class="btn-pesquisar" />
         </form>
     </section>
+
 </body>
 </html>
