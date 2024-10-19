@@ -41,7 +41,7 @@
             echo "<td>" . $linha['nome'] . "</td>";
          
             echo "<td>
-                    <a href='editando.php?id=" . $linha['id'] . "' class='btn btn-warning btn-sm'>Editar</a>
+                    <a href='editar.php?id=" . $linha['id'] . "' class='btn btn-warning btn-sm'>Editar</a>
                     <a href='excluir.php?id=" . $linha['id'] . "' class='btn btn-danger btn-sm'>Excluir</a>
                   </td>";
             echo "</tr>";
